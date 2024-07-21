@@ -1,10 +1,9 @@
 return {
-	{
-		"nvim-lua/plenary.nvim",
-		name = "plenary",
-	},
 
-    'theprimeagen/harpoon',
-    'github/copilot.vim',
+    {
+        "nvim-lua/plenary.nvim",
+        name = "plenary"
+    },
 
+    "eandrju/cellular-automaton.nvim",
 }
