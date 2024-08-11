@@ -13,14 +13,6 @@ return {
     },
 
     {
-        "folke/tokyonight.nvim",
-        lazy = false,
-        opts = {},
-        config = function()
-            ColorMyPencils()
-        end
-    },
-    {
         "ellisonleao/gruvbox.nvim",
         name = "gruvbox",
         config = function()
@@ -52,6 +44,7 @@ return {
     },
     {
         "folke/tokyonight.nvim",
+        name = "tokyo",
         config = function()
             require("tokyonight").setup({
                 -- your configuration comes here
@@ -84,6 +77,5 @@ return {
             })
         end
     },
-
 
 }
